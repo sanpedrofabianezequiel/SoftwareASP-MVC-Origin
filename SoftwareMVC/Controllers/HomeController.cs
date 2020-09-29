@@ -7,12 +7,40 @@ using System.Web.Mvc;
 
 namespace SoftwareMVC.Controllers
 {
+
+    public class Pesona //Clase Interna
+    {
+
+    }
+
+
     public class HomeController : Controller
     {
+        //------------------------------------------JSON
+
         public ActionResult Index()
         {
             return View();
         }
+
+
+        //------------------------------------------
+        //public ActionResult Index()
+        //{          
+        //    return View();
+        //}
+        //------------------------------------------
+        //public ContentResult Index()
+        //{
+        //    return Content("Ezequiel San Pedro"/*,"application/json"*/);
+        //}
+        //------------------------------------------
+        //public ContentResult Index()
+        //{
+        //    return  Content("<b>Ezequiel</b>");
+        //}
+
+
 
         public ActionResult About()
         {
